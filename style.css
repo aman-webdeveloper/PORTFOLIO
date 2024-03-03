@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Madimi+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  background-color: #9e9e9e;
+}
+
+main {
+  width: 100%;
+  max-width: auto;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  flex: 1 2 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 700px) {
+  main {
+    flex-direction: column;
+  }
+}
+
+.left {
+  padding: 40px;
+  background-color: #272626;
+  flex: 1;
+}
+
+.right {
+  padding: 40px;
+  flex: 2;
+  background-color: white;
+}
+
+/* left */
+.img-sec img {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  width: 220px;
+  margin: auto;
+  margin-top: 30px;
+  border: 5px solid white;
+  transition: transform 0.2s;
+}
+img:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.name h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  color: white;
+  font-weight: 900;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.skill h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 400;
+  left: 25px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+hr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.contact-info h3 {
+  display: flex;
+  font-size: 1.7rem;
+  color: white;
+  font-weight: 400;
+  margin-left: 20px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 17px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
+
+#call-sec #phone {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-left: 20px;
+  color: white;
+}
+#call-sec {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#email-sec #envelope {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-left: 20px;
+  color: white;
+  cursor: pointer;
+}
+#email-sec {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#Youtube-sec #playbutton {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-left: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+#Youtube-sec {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#linkedin-sec #linkedin {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-left: 20px;
+  color: white;
+  cursor: pointer;
+}
+#linkedin-sec {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#instagram-sec #insta {
+  display: flex;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 200;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline 2px;
+}
+
+#instagram-sec {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#twitter-sec #tweet {
+  cursor: pointer;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-left: 20px;
+  color: white;
+}
+
+#twitter-sec {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#envelope,
+#playbutton,
+#linkedin,
+#insta,
+#tweet {
+  margin-top: 10px;
+}
+
+/* Eduaction info */
+
+.education h5 {
+  display: flex;
+  font-size: 1.7rem;
+  color: white;
+  font-weight: 400;
+  margin-left: 20px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 25px;
+}
+.education .courses {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3em;
+  color: white;
+  font-weight: 400;
+  margin-left: 20px;
+  font-weight: bold;
+  justify-content: space-evenly;
+}
+
+.courses h4 {
+  margin-top: 5px;
+  font-size: 1.1rem;
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.language h6 {
+  color: white;
+  font-size: 2em;
+  font-style: italic;
+  margin-top: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.language p {
+  color: white;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#loader-1 {
+  height: 20px;
+  background-color: orangered;
+  width: 80%;
+  border: 1px solid white;
+  padding-left: 210px;
+  margin-left: 20px;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.skills {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  width: 100%;
+  background-color: rgb(88, 174, 86);
+  height: 30px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.css {
+  width: 95%;
+  background-color: rgb(88, 174, 86);
+  height: 30px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+/* Right Section Start */
+
+.right h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.right p {
+  font-size: 1.3rem;
+}
+
+.right span {
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 600;
+  color: #192655;
+  font-family: "Arvo", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.Youtube-channel span li {
+  list-style: square;
+}
+
+.myskills {
+  font-size: 1.3rem;
+}
